@@ -5,7 +5,7 @@ on:
 
 jobs:
   say-hello:
-    runs-on: self-hosted
+    runs-on: my-runner
 
     steps:
       - name: Checkout repository
