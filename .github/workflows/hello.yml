@@ -5,11 +5,11 @@ on:
 
 jobs:
   say-hello:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Print message
-        run: echo "Hello GitHub Actions!!"
+        run: echo "Self-Hosted Runner!!"
